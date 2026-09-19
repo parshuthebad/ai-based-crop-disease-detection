@@ -1,0 +1,58 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  background: #f3f7f2;
+  color: #16281c;
+}
+
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.9rem;
+  color: #1c5b33;
+}
+
+.subtitle {
+  color: #4b6152;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #dfe8e0;
+  border-radius: 14px;
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.preview {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  max-height: 320px;
+}
+
+button {
+  background: #1c5b33;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.healthy { color: #1c7a3c; font-weight: 600; }
+.diseased { color: #b3341f; font-weight: 600; }
+.error { color: #b3341f; }
