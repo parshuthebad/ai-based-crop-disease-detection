@@ -1,5 +1,6 @@
 # AI Based Crop Detection (Crop & Disease Detection)
 
+
 An end-to-end AI system that detects crop type and crop disease from leaf/field images.
 
 ## Problem Statement
